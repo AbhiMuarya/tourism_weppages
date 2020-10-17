@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>Indian Tourism</title> 
+<style>
+body {margin: 0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #0000A0;
+}
+
+ li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    
+    text-decoration: none;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+a.active,.dropdown-content a:hover {background-color: green;}
+
+
+.dropdown:hover.dropdown-content{
+display:block;
+}
+
+ 
+.mySlides {display:none;}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;    top: 100%;
+    left: 190%;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-60%, -60%);
+    background-color: #0000A0 ;
+    color: red;
+    font-size: 20px;
+    padding: 8px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: lightgreen;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 10, 10, 0.5);
+}
+<table>
+table, th, td {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+</style>
+</head>
+<body>
+
+<ul >
+  <li style="float:center;font-size:40;color:white;margin-left:20px;margin-top:8px;font-family:Damages" ><b><i>Indian Tourism</i></b></li>
+  <li style="float:right" ><a style="float:right;font-size:20" href="#about">About Us</a></li>
+  <li style="float:right" ><a class="active" style="float:right;font-size:20" href="#contact" >South Zone</a>
+  <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  <li style="float:right"><a style="float:right;font-size:20" href="#">Indian Tours</a></li>
+  <li style="float:right"><a  style="float:right;font-size:20" href="#home">Home</a></li>
+  
+  
+  
+  
+</ul>
+
+<div style="padding:10px 20px;align:centre"><div class="container">
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\01.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\02.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\03.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\04.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\07.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\06.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\07.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\08.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\09.jpg" style="width:370%;height:50%">
+  <img class="mySlides" src="C:\Users\Lenovo\Desktop\New folder\10.jpg" style="width:370%;height:50%">
+ <button class="btn"><a href="C:\Users\Ishan Pandey\Desktop\javascript.html"><b>PlanTrip!</b></a></button>
+</div>
+  
+  
+  
+  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+
+}
+</script>
+<br>
+<h1 align="center" style="font-size:40px">South India</h1>
+   <p><strong>Location:</strong> Below the Vindhya Range</p>
+          <p><strong>Major Cities:</strong> Chennai, Hyderabad, Bangalore, Cochin, Pondicherry</p>
+          <p><strong>Holy Destinations:</strong> Rameshwaram, Sabarimala, Thiruvananthapuram</p>
+          <p><strong>Holiday Destinations:</strong> Alappuzha Backwaters, Southern Beaches, Lakshadweep</p>
+          <p>South India is linguistic and geographically cultural region of India. South India captures the Vindhyanchal mountain ranges, Satpura and Narmada River. South India is linguistic and geographic culture land of India. Where the blend of rich heritage and nature can be witnessed. The Muslim sway was fleeting at the peninsular tip of India where as peripheral influence on Hinduism in South was twisted by sliest quantity. The Temple towns of South are quite unlike those of the North and superbly Vibrant. </p>
+          <p>South India basically covers the four extoic states of India: Andhra Pradesh, Karnataka, Kerala and Tamil Nadu and the Union Territory of Pondicherry. The South India tourist destinations are tourism hot spots offering a right blend of wildlife, beaches, temples, history, landscapes that allure millions of tourists every year. </p>
+          <p>The backwaters of Kerala, pristine beaches of Lakshadweep, temples of Tamil Nadu, the wildlife belt of the Mudumalai and Bandipur forests, the world heritage sites of Karnataka is what makes the visit to South India a perfect vacation. Travel to South India with Meruka Tours to have a taste of this part of India and get charmed by the unique culture and tradition of South India.</p>
+       <br> <br> 2
+<hr>
+<h1 align="center"><b>DESTINATIONS TO VISIT</b></h1>
+	
+         <table style="width:100%">
+  <tr>
+    <th><img src="C:\Users\Lenovo\Desktop\New folder\south\chen.jpg" alt="Chennai" title="Chennai" class="img-responsive  thumbnail"></th><span><Chennai</span>
+             
+    <td><p>Chennai ,the capital of Tamil Nadu,initially known as "Madras" one of the metro cities of India ,famous for it's infrastructure ,also a port city,<br>also it's cuisine and beach are  world famous.</p></td> 
+
+  </tr>
+<tr>
+  <th><img src="I:\html_sub\south\tiru1.jpg" alt="Tirupati" title="tirupati" class="img-responsive  thumbnail"></th><span><Tirupati</span>
+    <td>  <p>Tirupati,in the state of Andhra Pradesh,one of the religious place of India ,every year millions of devotees visit this place,<br>not only from India instead from many foriegn countries.</p></td>
+    
+  </tr>
+  <tr>
+    <th><img src="silent.jpg" alt="Silent Valley" title="Silent Valley" class="img-responsive thumbnail"></th>
+    <td><p>Silent Valley,in south of india ,kerala,is one of the most iconic place in India,it's sceninc beauty in mesmorising and unpredictable<br>every year huge number of forign as well as local tourist visit  here. </p></td>
+    
+  </tr>
+  <tr>
+    <th><img src="C:\Users\Lenovo\Desktop\New folder\south\bangalore.jpg" alt="Bangalore" title="Bangalore; Kashmir" class="img-responsive thumbnail"></th>
+    <td><p>Bangalore ,the I.T. firm of India famous for it's high-tech infrastructure ,a new metro city of India ,have rich diversity and culture<br>Silicon Valley is greatest success in I.T. firm in India.</p></td>    
+  </tr>
+
+  <tr>
+    <th><img src="laksh.jpg" alt="Lakshadweep" title="Lakshadweep" class="img-responsive thumbnail"></th> 
+    <td><p>Just off the coast of Kerala are a widely scattered group of coral islands – 36 of them – collectively known as Lakshadweep. They form part of the Union<br> of India and are one of the country's newest tourist destinations. The islanders have lifestyles and inhabited by simple, peace-loving folk whose languages<br> cclose to that spoken in Kerala.</p>
+                 </td>
+
+  </tr>
+</tr>
+  <tr>
+    <th><img src="charminar.jpg" alt="Charminar" title="Charminar" class="img-responsive thumbnail"></th> 
+    <td> <p>Telangana is one of the 29 states and  twelth major state in India, located in southern india; its major cities includes Hyderabad, Warangal, Nizamabad,<br> Khammam and Karimnagar.Telangana was combined with former Andhra state to form Andhra Pradesh, it is located on the Deccan Plateau.</p>
+                  </td>
+    
+  </tr>
+</tr>
+  <tr>
+    <th><img src="oris.jpg" alt="Orissa" title="Orissa" class="img-responsive thumbnail"></th> 
+    <td><p>Orissa ,contains a number of old monuments such as konark , sarnath which attract the eyes of tourist every year in a huge number<br>a coastal region and almost suuny climate   </p></td>
+   
+  </tr>
+</tr>
+  <tr>
+    <th><img src="C:\Users\Lenovo\Desktop\New folder\south\goa.jpg" alt="Goa" title="Goa" class="img-responsive thumbnail"></th> 
+    <td><p>Goa in the state of maharashtra ,the most modern city of India, famous for its resorts , hotels and specially the  beaches<br>the smallest state of India, holiday spending place.  </p></td>
+  </tr>
+</table> 
+<br><br>  
+<hr>
+<h1 align="center"><b>THANKYOU FOR YOUR VISIT</b><h1><br>
+	
